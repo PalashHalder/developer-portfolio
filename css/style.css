@@ -3,8 +3,11 @@ body {
     margin: 0;
 }
 
+/* ==================== top-banner part start ========================= */
+
 section {
     display: flex;
+    margin-bottom: 150PX;
 }
 
 h1 {
@@ -37,3 +40,19 @@ h1 {
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
 }
+
+/* ==================== top-banner part end ========================= */
+
+/* ==================== dream banner part start ========================= */
+
+.dream-banner {
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.area {
+    width: 88%;
+}
+
+/* ==================== dream banner part end ========================= */
