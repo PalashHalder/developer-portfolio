@@ -5,9 +5,14 @@ body {
 
 /* ==================== top-banner part start ========================= */
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150PX;
+}
+
+.top-banner {
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -21,10 +26,12 @@ h1 {
 .half-width {
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
+
 }
 
 .half-width img {
-    width: 80%;
+    width: 70%;
 }
 
 .link-button {
@@ -36,10 +43,7 @@ h1 {
     font-weight: 700;
 }
 
-.top-banner {
-    background-image: url(/images/top-banner.png);
-    background-repeat: no-repeat;
-}
+
 
 /* ==================== top-banner part end ========================= */
 
@@ -51,8 +55,43 @@ h1 {
     background-position: right;
 }
 
-.area {
-    width: 88%;
-}
 
 /* ==================== dream banner part end ========================= */
+
+/* ==================== experience item part start ========================= */
+
+.experience-area {
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#full-stack-developer {
+    border-left: 7px solid rgb(242, 39, 39);
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+/* ==================== experience item part end ========================= */
+
+/* ==================== footer item part start ========================= */
+
+footer p {
+    text-align: center;
+}
+
+/* ==================== footer item part end ========================= */
